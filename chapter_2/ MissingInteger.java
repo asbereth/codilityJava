@@ -4,7 +4,7 @@ import java.util.Arrays;
 // you can use System.out.println for debugging purposes, e.g.
 // System.out.println("this is a debug message");
 
-class Solution {
+class MissingInteger {
     public int solution(int[] A) {
         int N = A.length;
         long numberToReturn = 1;
