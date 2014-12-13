@@ -7,7 +7,7 @@ import java.util.Arrays;
 // System.out.println("this is a debug message");
 
 class Solution {
-    public int[] solution(int N, int[] A) {
+    public int[] MaxCounters(int N, int[] A) {
         int M = A.length, currMax = 0, lastMaxCounter = 0;
         int lastIndexOfMaxCounter = -1;
         int counterSum = 0;
